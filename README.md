@@ -69,9 +69,14 @@ transcripts) off the public site.
    `target="_blank" rel="noopener"` automatically. With JS off they fall back to the
    `#saig-chat` anchor.
 
-2. **Domain.** `https://saig.com.au` is a placeholder. Replace it in
-   `site/index.html` (canonical + Open Graph tags), `site/robots.txt`, and
-   `site/sitemap.xml`.
+2. ~~**Domain.**~~ **Set to `https://saig.co`** in `site/index.html` (canonical +
+   Open Graph tags), `site/robots.txt`, and `site/sitemap.xml`. All six absolute
+   URLs must stay in sync with whatever domain Pages actually serves.
+
+   **Still to do in Cloudflare:** attach `saig.co` as a custom domain on the Pages
+   project. Until then the site answers on `saig-landing.pages.dev` while telling
+   crawlers its canonical is `saig.co`, so hold off submitting the sitemap to
+   Search Console until the domain resolves.
 
 3. ~~**Loom walkthrough.**~~ **Done.** The Saig Chat section embeds the walkthrough
    in `.embed-slot`, lazily loaded since it sits below the fold.
