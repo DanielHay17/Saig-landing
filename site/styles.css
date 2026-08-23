@@ -636,7 +636,7 @@ section[id] { scroll-margin-top: 96px; }
 .sec-title { font-weight: 700; font-size: 17px; }
 .sec-card p { font-size: 14px; line-height: 1.6; color: rgba(252, 251, 248, .72); }
 
-/* ── Sage Chat section ──────────────────────────────────────── */
+/* ── Saig Chat section ──────────────────────────────────────── */
 
 .chat-col { display: flex; flex-direction: column; gap: 16px; }
 .chat-card { padding: 24px; display: flex; flex-direction: column; gap: 12px; }
@@ -664,7 +664,7 @@ section[id] { scroll-margin-top: 96px; }
    letterboxes the player inside the frame. Update if it is re-recorded. */
 .embed-slot iframe { width: 100%; aspect-ratio: 208 / 135; border: 0; display: block; }
 
-/* ── Sage Cloud flow ────────────────────────────────────────── */
+/* ── Saig Cloud flow ────────────────────────────────────────── */
 
 .flow {
   display: grid;

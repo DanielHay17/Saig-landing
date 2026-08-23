@@ -5,7 +5,7 @@
 /* ─────────────────────────────────────────────────────────────
    1. CTA LINKS
 
-   Every "Book a call" and "Login to Sage Chat" button on the page
+   Every "Book a call" and "Login to Saig Chat" button on the page
    is wired to these (they carry data-cta="book" / "login").
 
    Leave a value as null to keep the on-page anchor behaviour.
@@ -18,7 +18,7 @@
 
 var LINKS = {
   book:  null,                      // on-page: scrolls to the #book booking section
-  login: 'https://chat.saig.co/'    // Sage Chat
+  login: 'https://chat.saig.co/'    // Saig Chat
 };
 
 (function () {

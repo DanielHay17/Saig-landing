@@ -53,11 +53,11 @@ transcripts) off the public site.
    ```js
    var LINKS = {
      book:  null,                      // on-page: scrolls to the #book booking section
-     login: 'https://chat.saig.co/'    // Sage Chat
+     login: 'https://chat.saig.co/'    // Saig Chat
    };
    ```
 
-   Every "Book a call" / "Login to Sage Chat" button on the page carries
+   Every "Book a call" / "Login to Saig Chat" button on the page carries
    `data-cta="book"` or `data-cta="login"` and picks these up automatically.
    A `null` value leaves the button on its on-page anchor.
 
@@ -65,15 +65,15 @@ transcripts) off the public site.
    buttons are anchors to `#book`, which is the iClosed embed at the bottom. Setting
    a URL here sends people off-site and skips that section.
 
-   `login` is cross-origin, so the five "Login to Sage Chat" buttons get
+   `login` is cross-origin, so the five "Login to Saig Chat" buttons get
    `target="_blank" rel="noopener"` automatically. With JS off they fall back to the
-   `#sage-chat` anchor.
+   `#saig-chat` anchor.
 
 2. **Domain.** `https://saig.com.au` is a placeholder. Replace it in
    `site/index.html` (canonical + Open Graph tags), `site/robots.txt`, and
    `site/sitemap.xml`.
 
-3. ~~**Loom walkthrough.**~~ **Done.** The Sage Chat section embeds the walkthrough
+3. ~~**Loom walkthrough.**~~ **Done.** The Saig Chat section embeds the walkthrough
    in `.embed-slot`, lazily loaded since it sits below the fold.
 
    `frame-src https://www.loom.com` is already allowed in `site/_headers`. Any other
